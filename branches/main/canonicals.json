@@ -16,28 +16,28 @@
   {
     "id": "r4bdemo",
     "type": "ImplementationGuide",
-    "url": "https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo",
+    "url": "https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo",
     "version": "1.0.0",
     "name": "ExampleIG"
   },
   {
     "id": "FoodAllergy",
     "type": "StructureDefinition",
-    "url": "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
+    "url": "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy",
     "version": "1.0.0",
     "name": "FoodAllergy"
   },
   {
     "id": "FoodAllergyModel",
     "type": "StructureDefinition",
-    "url": "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergyModel",
+    "url": "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergyModel",
     "version": "1.0.0",
     "name": "FoodAllergyModel"
   },
   {
     "id": "FoodAllergyVS",
     "type": "ValueSet",
-    "url": "https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS",
+    "url": "https://costateixeira.github.io/r4bdemo/ValueSet/FoodAllergyVS",
     "version": "1.0.0",
     "name": "FoodAllergyVS"
   }

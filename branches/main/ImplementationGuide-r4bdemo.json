@@ -3,9 +3,9 @@
   "id": "r4bdemo",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo</pre><div><p>Example IG for R5 content.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo</pre><div><p>Example IG for R4B content.</p>\n</div></div>"
   },
-  "url": "https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo",
+  "url": "https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo",
   "version": "1.0.0",
   "name": "ExampleIG",
   "title": "HL7 FHIR R5 Implementation Guide",
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "description": "Example IG for R5 content.",
+  "description": "Example IG for R4B content.",
   "jurisdiction": [
     {
       "coding": [
@@ -201,7 +201,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://medigree.github.io/r5demo/history.html"
+            "valueString": "https://costateixeira.github.io/r4bdemo/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -513,7 +513,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://medigree.github.io/r5demo/history.html"
+            "valueString": "https://costateixeira.github.io/r4bdemo/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -769,7 +769,7 @@
           "reference": "AllergyIntolerance/MyPeanutAllergy"
         },
         "name": "PeanutAllergy",
-        "exampleCanonical": "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"
+        "exampleCanonical": "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy"
       },
       {
         "extension": [
