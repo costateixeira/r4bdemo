@@ -1,0 +1,128 @@
+{
+  "resourceType": "Basic",
+  "id": "Actor1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"grid\"><tr><td><b>Actor: Actor1</b></td><td>Actor 1</td><td>Type: system</td><td colspan=\"2\"><a href=\"http://example.com\">http://example.com</a></td><td colspan=\"2\"><a href=\"http://example.org/fhirCapStatementActor1\">http://example.org/fhirCapStatementActor1</a></td></tr><tr><td colspan=\"3\"><div><p>This actor has</p>\n<ul>\n<li>url</li>\n<li>identifier.value</li>\n<li>version</li>\n<li>name</li>\n<li>title</li>\n<li>status</li>\n<li>experimental</li>\n<li>date</li>\n<li>publisher</li>\n<li>contact.name</li>\n<li>description</li>\n<li>jurisdiction</li>\n<li>purpose</li>\n<li>copyright</li>\n<li>copyrightLabel</li>\n<li>type</li>\n<li>documentation</li>\n<li>reference</li>\n<li>capabilities</li>\n</ul>\n</div></td></tr><tr><td>References:</td></tr><tr><td>Capabilities:</td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url",
+      "valueUri": "http://example.org/fhir/actor1"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version",
+      "valueString": "1.0.0"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name",
+      "valueString": "Actor1"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title",
+      "valueString": "Actor 1"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.experimental",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date",
+      "valueDateTime": "2022-09-11"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher",
+      "valueString": "My Organization"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact",
+      "valueContactDetail": {
+        "name": "My Organization",
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://example.com/committees"
+          },
+          {
+            "system": "email",
+            "value": "my-group@example.com"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact",
+      "valueContactDetail": {
+        "name": "Bob Smith",
+        "telecom": [
+          {
+            "system": "email",
+            "value": "bobsmith@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description",
+      "valueMarkdown": "Actor description text here\nand here\n* option 1\n* option 2"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+            "code": "001",
+            "display": "World"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.purpose",
+      "valueMarkdown": "For demonstrating the use of actor definitions.  \nThis actor participates in the following use cases:\n* use case 2\n* use case 5"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyright",
+      "valueMarkdown": "You may copy this anytime."
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyrightLabel",
+      "valueString": "Myself 2022"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type",
+      "valueCode": "system"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation",
+      "valueMarkdown": "This actor has\n* url\n* identifier.value\n* version\n* name\n* title\n* status\n* experimental\n* date\n* publisher\n* contact.name\n* description\n* jurisdiction\n* purpose\n* copyright\n* copyrightLabel\n* type\n* documentation\n* reference\n* capabilities\n"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.reference",
+      "valueUrl": "http://example.com"
+    },
+    {
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.capabilities",
+      "valueCanonical": "http://example.org/fhirCapStatementActor1"
+    }
+  ],
+  "identifier": [
+    {
+      "value": "A1"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/fhir-types",
+        "code": "ActorDefinition"
+      }
+    ]
+  }
+}

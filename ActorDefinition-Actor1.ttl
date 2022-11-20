@@ -1,0 +1,139 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://medigree.github.io/r5demo/Basic/Actor1> a fhir:Basic;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Actor1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"grid\"><tr><td><b>Actor: Actor1</b></td><td>Actor 1</td><td>Type: system</td><td colspan=\"2\"><a href=\"http://example.com\">http://example.com</a></td><td colspan=\"2\"><a href=\"http://example.org/fhirCapStatementActor1\">http://example.org/fhirCapStatementActor1</a></td></tr><tr><td colspan=\"3\"><div><p>This actor has</p>\n<ul>\n<li>url</li>\n<li>identifier.value</li>\n<li>version</li>\n<li>name</li>\n<li>title</li>\n<li>status</li>\n<li>experimental</li>\n<li>date</li>\n<li>publisher</li>\n<li>contact.name</li>\n<li>description</li>\n<li>jurisdiction</li>\n<li>purpose</li>\n<li>copyright</li>\n<li>copyrightLabel</li>\n<li>type</li>\n<li>documentation</li>\n<li>reference</li>\n<li>capabilities</li>\n</ul>\n</div></td></tr><tr><td>References:</td></tr><tr><td>Capabilities:</td></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url" ];
+     fhir:Extension.valueUri [ fhir:value "http://example.org/fhir/actor1" ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version" ];
+     fhir:Extension.valueString [ fhir:value "1.0.0" ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name" ];
+     fhir:Extension.valueString [ fhir:value "Actor1" ]
+  ], [
+     fhir:index 3;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title" ];
+     fhir:Extension.valueString [ fhir:value "Actor 1" ]
+  ], [
+     fhir:index 4;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status" ];
+     fhir:Extension.valueCode [ fhir:value "draft" ]
+  ], [
+     fhir:index 5;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.experimental" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 6;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date" ];
+     fhir:Extension.valueDateTime [ fhir:value "2022-09-11"^^xsd:date ]
+  ], [
+     fhir:index 7;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher" ];
+     fhir:Extension.valueString [ fhir:value "My Organization" ]
+  ], [
+     fhir:index 8;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact" ];
+     fhir:Extension.valueContactDetail [
+       fhir:ContactDetail.name [ fhir:value "My Organization" ];
+       fhir:ContactDetail.telecom [
+         fhir:index 0;
+         fhir:ContactPoint.system [ fhir:value "url" ];
+         fhir:ContactPoint.value [ fhir:value "http://example.com/committees" ]
+       ], [
+         fhir:index 1;
+         fhir:ContactPoint.system [ fhir:value "email" ];
+         fhir:ContactPoint.value [ fhir:value "my-group@example.com" ]
+       ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact" ];
+     fhir:Extension.valueContactDetail [
+       fhir:ContactDetail.name [ fhir:value "Bob Smith" ];
+       fhir:ContactDetail.telecom [
+         fhir:index 0;
+         fhir:ContactPoint.system [ fhir:value "email" ];
+         fhir:ContactPoint.value [ fhir:value "bobsmith@example.com" ];
+         fhir:ContactPoint.use [ fhir:value "work" ]
+       ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description" ];
+     fhir:Extension.valueMarkdown [ fhir:value "Actor description text here\nand here\n* option 1\n* option 2" ]
+  ], [
+     fhir:index 11;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+         fhir:Coding.code [ fhir:value "001" ];
+         fhir:Coding.display [ fhir:value "World" ]
+       ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.purpose" ];
+     fhir:Extension.valueMarkdown [ fhir:value "For demonstrating the use of actor definitions.  \nThis actor participates in the following use cases:\n* use case 2\n* use case 5" ]
+  ], [
+     fhir:index 13;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyright" ];
+     fhir:Extension.valueMarkdown [ fhir:value "You may copy this anytime." ]
+  ], [
+     fhir:index 14;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyrightLabel" ];
+     fhir:Extension.valueString [ fhir:value "Myself 2022" ]
+  ], [
+     fhir:index 15;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type" ];
+     fhir:Extension.valueCode [ fhir:value "system" ]
+  ], [
+     fhir:index 16;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation" ];
+     fhir:Extension.valueMarkdown [ fhir:value "This actor has\n* url\n* identifier.value\n* version\n* name\n* title\n* status\n* experimental\n* date\n* publisher\n* contact.name\n* description\n* jurisdiction\n* purpose\n* copyright\n* copyrightLabel\n* type\n* documentation\n* reference\n* capabilities\n" ]
+  ], [
+     fhir:index 17;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.reference" ];
+     fhir:Extension.valueUrl [ fhir:value "http://example.com" ]
+  ], [
+     fhir:index 18;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.capabilities" ];
+     fhir:Extension.valueCanonical [
+       fhir:value "http://example.org/fhirCapStatementActor1";
+       fhir:link <http://example.org/fhirCapStatementActor1>
+     ]
+  ];
+  fhir:Basic.identifier [
+     fhir:index 0;
+     fhir:Identifier.value [ fhir:value "A1" ]
+  ];
+  fhir:Basic.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/fhir-types" ];
+       fhir:Coding.code [ fhir:value "ActorDefinition" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://medigree.github.io/r5demo/Basic/Actor1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
