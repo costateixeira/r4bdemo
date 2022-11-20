@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo> a fhir:ImplementationGuide;
+<https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "r4bdemo"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo</pre><div><p>Example IG for R5 content.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo</pre><div><p>Example IG for R4B content.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo"];
+  fhir:ImplementationGuide.url [ fhir:value "https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "ExampleIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR R5 Implementation Guide"];
@@ -41,7 +41,7 @@
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "Example IG for R5 content."];
+  fhir:ImplementationGuide.description [ fhir:value "Example IG for R4B content."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -199,7 +199,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://medigree.github.io/r5demo/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://costateixeira.github.io/r4bdemo/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -487,7 +487,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://medigree.github.io/r5demo/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://costateixeira.github.io/r4bdemo/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -667,7 +667,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/FoodAllergy" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy" ];
@@ -681,7 +681,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/StructureDefinition/FoodAllergyModel>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergyModel>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/FoodAllergyModel" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergy Logical Model" ];
@@ -695,7 +695,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/ValueSet/FoodAllergyVS>;
          fhir:Reference.reference [ fhir:value "ValueSet/FoodAllergyVS" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Food Allergies" ];
@@ -709,7 +709,7 @@
          fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/ActorDefinition/Actor1>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/ActorDefinition/Actor1>;
          fhir:Reference.reference [ fhir:value "ActorDefinition/Actor1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Actor1" ];
@@ -723,13 +723,13 @@
          fhir:Extension.valueString [ fhir:value "AllergyIntolerance" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/AllergyIntolerance/MyPeanutAllergy>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/AllergyIntolerance/MyPeanutAllergy>;
          fhir:Reference.reference [ fhir:value "AllergyIntolerance/MyPeanutAllergy" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PeanutAllergy" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy";
-         fhir:link <https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy>
+         fhir:value "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy";
+         fhir:link <https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy>
        ]
      ], [
        fhir:index 5;
@@ -739,7 +739,7 @@
          fhir:Extension.valueString [ fhir:value "Requirements" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://medigree.github.io/r5demo/Requirements/Requirements1>;
+         fhir:link <https://costateixeira.github.io/r4bdemo/Requirements/Requirements1>;
          fhir:Reference.reference [ fhir:value "Requirements/Requirements1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Requirements1" ];
@@ -832,7 +832,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/ImplementationGuide/r4bdemo.ttl> a owl:Ontology;
+<https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

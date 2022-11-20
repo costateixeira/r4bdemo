@@ -3,7 +3,7 @@
   "id": "MyPeanutAllergy",
   "meta": {
     "profile": [
-      "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"
+      "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy"
     ]
   },
   "text": {
