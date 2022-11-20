@@ -65,7 +65,7 @@
     <valueUri value="http://example.org/fhir/requirements1"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version">
-    <valueString value="1.0.0"/>
+    <valueString value="0.1.0"/>
   </extension>
   <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name">
     <valueString value="FunctionalRequirements"/>

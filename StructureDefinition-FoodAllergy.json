@@ -16,11 +16,11 @@
     }
   ],
   "url": "https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "FoodAllergy",
   "title": "Food Allergy",
   "status": "active",
-  "date": "2022-11-20T10:01:09+00:00",
+  "date": "2022-11-20T10:08:15+00:00",
   "publisher": "My Organization",
   "contact": [
     {

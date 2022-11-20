@@ -19,7 +19,7 @@
   ], [
      fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version" ];
-     fhir:Extension.valueString [ fhir:value "1.0.0" ]
+     fhir:Extension.valueString [ fhir:value "0.1.0" ]
   ], [
      fhir:index 2;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name" ];

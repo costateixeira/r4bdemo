@@ -1,6 +1,6 @@
 {
   "package": "r4bdemo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "fhirVersion": "4.3.0",
   "jurisdiction": "001",
   "extensions": [],

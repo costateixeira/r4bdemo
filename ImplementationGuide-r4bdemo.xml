@@ -7,7 +7,7 @@
 </div></div>
   </text>
   <url value="https://costateixeira.github.io/r4bdemo/ImplementationGuide/r4bdemo"/>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="ExampleIG"/>
   <title value="HL7 FHIR R5 Implementation Guide"/>
   <status value="active"/>
