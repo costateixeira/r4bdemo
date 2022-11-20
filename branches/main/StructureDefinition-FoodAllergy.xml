@@ -24,11 +24,11 @@
     <valueCode value="patient"/>
   </extension>
   <url value="https://costateixeira.github.io/r4bdemo/StructureDefinition/FoodAllergy"/>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="FoodAllergy"/>
   <title value="Food Allergy"/>
   <status value="active"/>
-  <date value="2022-11-20T10:01:09+00:00"/>
+  <date value="2022-11-20T10:08:15+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>

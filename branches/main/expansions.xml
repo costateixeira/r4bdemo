@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fa569302-4076-4733-9f11-142d34a6a5a1"/>
+  <id value="fb6c2979-72b5-456b-b64b-9a664549b1f2"/>
   <meta>
-    <lastUpdated value="2022-11-20T10:01:09.780+00:00"/>
+    <lastUpdated value="2022-11-20T10:08:15.922+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -120,11 +120,11 @@
           </div>
         </text>
         <url value="https://costateixeira.github.io/r4bdemo/ValueSet/FoodAllergyVS"/>
-        <version value="1.0.0"/>
+        <version value="0.1.0"/>
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2022-11-20T10:01:09+00:00"/>
+        <date value="2022-11-20T10:08:15+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -154,8 +154,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4ec8637-972a-4258-a55b-e92899c6c649"/>
-          <timestamp value="2022-11-20T10:01:22+00:00"/>
+          <identifier value="urn:uuid:b5f902c9-d4ba-4608-ae17-cdc118372f3b"/>
+          <timestamp value="2022-11-20T10:08:31+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
